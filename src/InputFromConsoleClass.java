@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 
 public class InputFromConsoleClass {
+	/*
+	 * 210422
+	 * 환전할 원화와, 타입의 변수를 받는 클래스
+	 * @kopo37(정현정)
+	 */
 Scanner scanner = null;//스캐너 선언
 	public InputFromConsoleClass() {//생성자
 		scanner = new Scanner(System.in); //스캐너 불러오기

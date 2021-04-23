@@ -6,14 +6,18 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
 public class FileWriteClass {
+	/*
+	 * 210422
+	 * 환전의 결과들을 파일에 기록하는 클래스
+	 * @kopo37(정현정)
+	 */
 	private FileWriter fw;
 	private boolean isFileExist;
 
 	public FileWriteClass() {//생성자
 		try {
-			File file = new File("C:\\Users\\hyeon\\Documents\\과제\\김유두교수님\\exchangeOutput.csv");
+			File file = new File("C:\\Users\\정현정\\Documents\\과제\\김유두교수님\\exchangeOutput.csv");
 			//파일에 대한 유무를 확인
 			if(file.exists() == false) {
 				isFileExist = false;

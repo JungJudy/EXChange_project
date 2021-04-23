@@ -1,7 +1,11 @@
 package Exchange;
 
 public class OutputClass {
-
+	/*
+	 * 210422
+	 * 환전 결과물을 출력하는 클래스
+	 * @kopo37(정현정)
+	 */
 	
 	public void printUSD(double exchangeResult, int usd, int[] USDunits, int[] USDcount) { //달러환전결과 출력
 		System.out.printf("*달러로 환전 결과 : %.2f 달러\n", exchangeResult);		

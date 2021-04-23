@@ -2,9 +2,12 @@ package Exchange;
 
 import java.io.IOException;
 
-
-
 public class MoneyExchange {
+	/*
+	 * 210422
+	 * 환전에 있어 각종 클래스를 불러오고 메소드를 실행할 클래스
+	 * @kopo37(정현정)
+	 */
 	public void moneyEx() throws IOException {		
 		//변수들을 담아준 ExchangeTyoe클래스 선언. 밑에 반복문에서 new 해준다. (왜냐하면 새로 환전을 할 때마다 초기화를 해서 새 정보를 입히려고)
 		ExchangeType exType;

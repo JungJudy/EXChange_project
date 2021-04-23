@@ -1,6 +1,11 @@
 package Exchange;
 
 public class ExchangeType {
+	/*
+	 * 210422
+	 * 변수들이 있는 클래스
+	 * @kopo37(정현정)
+	 */
 	double won; //입력받은 원화
 	int type; //입력받는 환전타입
 	double cw; //원화 거스름돈(소수점까지)

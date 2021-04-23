@@ -3,6 +3,11 @@ package Exchange;
 
 
 public class ProcessingClass {
+	/*
+	 * 210422
+	 * 환전 계산하는 클래스
+	 * @kopo37(정현정)
+	 */
 OutputClass outClass = null;
 ProcessingClass() { //생성자
 		outClass = new OutputClass();
